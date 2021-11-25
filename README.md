@@ -4,7 +4,6 @@
 - 주식 데이터와 전력소비 데이터를 구조가 간단한 LSTM, CNN, Seq2Seq 부터 Transformer를 최적화한 informer까지 학습하여 예측 후 모델 별 성능 평가
 - Linformer (2020)모델을 Time Series에서 사용할 수 있는 형태로 변환, 파라미터를 조정하며 성능평가
 - Sequence Length, Label Length, Prediction Length set을 조절하여 성능 평가
-- Sequence Length, Label Length, Prediction Length set을 조절하여 성능 평가
 
 ### Datasets
 1. AMD
@@ -33,8 +32,8 @@
 <img width="1175" alt="image" src="https://user-images.githubusercontent.com/62350977/143506219-f419ea20-5579-421b-a5fc-b60eebe18c18.png">
 
 ### References
-[Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting](arXiv preprint arXiv:2012.07436.)
-[Linformer: Self-attention with linear complexity](arXiv preprint arXiv:2006.04768.)
+[Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting](https://arxiv.org/abs/2012.07436)
+[Linformer: Self-attention with linear complexity](https://arxiv.org/abs/2006.04768)
 
 https://github.com/zhouhaoyi/Informer2020
 https://github.com/lucidrains/linformer
