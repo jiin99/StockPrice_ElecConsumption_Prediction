@@ -14,6 +14,7 @@
 - 데이터 총 개수 : 3,635개 (Train : 2,949개 / Test : 686개)
 <img width="490" alt="image" src="https://user-images.githubusercontent.com/62350977/143505958-421d3736-5b84-4eb0-ac85-5861e166e6c1.png">
 3. American Electric Power
+
 4. Dominion Virginia Power
 - 출처 : Kagge
 - 수집 기간 : 2005년 5월 1일 ~ 2019년 8월 2일 (hourly)
@@ -22,6 +23,11 @@
 
 ### Experiment setting
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/62350977/143506153-004d4a51-150d-49e8-a2f0-2c93fea044f5.png">
+
+### Run
+```python
+python main.py --model informer --gpu_id 0 --output_attention
+```
 
 ### Metrics
 - MSE
@@ -33,7 +39,9 @@
 
 ### References
 [Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting](https://arxiv.org/abs/2012.07436)
+
 [Linformer: Self-attention with linear complexity](https://arxiv.org/abs/2006.04768)
 
 https://github.com/zhouhaoyi/Informer2020
+
 https://github.com/lucidrains/linformer
