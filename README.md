@@ -1,4 +1,4 @@
-# StockPrice_Prediction
+# StockPrice_ElecConsumption_Prediction
 
 ### 목표
 - 주식 데이터와 전력소비 데이터를 구조가 간단한 LSTM, CNN, Seq2Seq 부터 Transformer를 최적화한 informer까지 학습하여 예측 후 모델 별 성능 평가
