@@ -14,7 +14,6 @@
 - 데이터 총 개수 : 3,635개 (Train : 2,949개 / Test : 686개)
 <img width="490" alt="image" src="https://user-images.githubusercontent.com/62350977/143505958-421d3736-5b84-4eb0-ac85-5861e166e6c1.png">
 3. American Electric Power
-
 4. Dominion Virginia Power
 - 출처 : Kagge
 - 수집 기간 : 2005년 5월 1일 ~ 2019년 8월 2일 (hourly)
